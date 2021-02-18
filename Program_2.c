@@ -15,9 +15,29 @@
 int main()
 {
    //Declare all the variables[N, array a & array b, i] used in the code
+   int N,arr[5],art[5],i;
    //Read the Value of N using scanf statement
+   scanf("%d",&N);
    //Read the array elements using for loop and scanf statment
+   for(i=0;i<N;i++)
+   {
+    scanf("%d",&arr[i]);
+   }
    //Copy the elements of array 'a'[first array] to  array 'b'[second array] using for loop
+   for(i=0;i<N;i++)
+   {
+     art[i]=arr[i];
+   }
    //Print the both array elements in using printf statement in the above specified format
+   printf("the elements stored in 1st array are");
+   for(i=0;i<N;i++)
+   {
+     printf(" %d ",arr[i]);
+   }
+   printf("\nthe elements stored in 2nd array are");
+   for(i=0;i<N;i++)
+   {
+     printf(" %d ",art[i]);
+   }
    return 0; 
 }

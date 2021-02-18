@@ -12,7 +12,7 @@
 int main()
 {
    //Declare all the variables[N, array a, i] used in the code
-   int N, a[5],i;
+   int N, a[10],i;
    //Read the Value of N using scanf statement
    scanf("%d",&N);
    //Read the array elements using for loop and scanf statment
