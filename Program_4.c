@@ -8,9 +8,20 @@
 int main()
 {
   //Declare all the variables[N, array a(1D array), i, sum=0] used in the code
+  int N,arr[10],sum=0,i;
   //Read the Value of array size N using scanf statement
+  scanf("%d",&N);
   //Read the array elements using for loop and scanf statment
+  for(i=0;i<N;i++)
+  {
+    scanf("%d",&arr[i]);
+  }
   // DO the addition of array elements and store the final result in variable sum
+  for(i=0;i<N;i++)
+  {
+   sum=sum+arr[i];
+  }
   //Print the sum of array elements which is stored in variable sum using printf statement
+  printf("Sum of all elements stored in the array is %d",sum);
   return 0;
 }
