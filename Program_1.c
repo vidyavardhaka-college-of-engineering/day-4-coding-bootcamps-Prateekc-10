@@ -12,9 +12,19 @@
 int main()
 {
    //Declare all the variables[N, array a, i] used in the code
+   int N, a[5],i;
    //Read the Value of N using scanf statement
+   scanf("%d",&N);
    //Read the array elements using for loop and scanf statment
+   for(i=0;i<N;i++)
+   {
+     scanf("%d",&a[i]);
+   }
    //Print the array elements in using printf statement
+   for(i=0;i<N;i++)
+   {
+     printf(" %d ",a[i]);
+   }
    
    return 0; 
 }
